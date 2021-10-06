@@ -25,4 +25,4 @@ jobs:
             ${{ runner.os }}-maven-
 
       - name: Run Build
-        run: mav install
+        run: mvn install
