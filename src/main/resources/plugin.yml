@@ -1,0 +1,12 @@
+name: Hub-Plugin
+version: '${project.version}'
+main: net.nerrog.hubplugin.HubPlugin
+api-version: 1.17
+authors: [ nerrog ]
+commands:
+  hub:
+    aliases: [ hub, lobby ]
+    description: return to hub (lobby)
+    permission: hubplugin.hub
+    permission-message: Permission denied
+    usage: return to hub (lobby)
